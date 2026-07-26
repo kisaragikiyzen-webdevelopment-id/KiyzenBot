@@ -4,8 +4,15 @@
 
 # KiyzenBot
 Saya tak akan bertanggung-jawab atas apa yang kalian alami!
+```bash
+git clone https://github.com/kisaragikiyzen-webdevelopment-id/KiyzenBot.git && pip install colorama && python KiyzenBot/EmailSpam.py
+```
 
 ### SC Email Spam
 ```bash
-git clone https://github.com/kisaragikiyzen-webdevelopment-id/KiyzenBot.git && pip install colorama && python KiyzenBot/EmailSpam.py
+[+] Input target (Email)
+[+] Input Subject and Body
+[+] Waiting...
+[+] Bot Log-in...
+[+] Spam Email...
 ```
