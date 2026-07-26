@@ -1,5 +1,5 @@
 <p style="align">
-  <img style="border-radius:25;" src="https://www.image2url.com/r2/default/images/1785069212409-583e7461-64c1-46cb-9681-596a103d9f50.jpg">
+  <img style="border-radius:25px;" src="https://www.image2url.com/r2/default/images/1785069212409-583e7461-64c1-46cb-9681-596a103d9f50.jpg">
 </p>
 
 # KiyzenBot
