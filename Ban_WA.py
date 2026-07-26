@@ -21,39 +21,16 @@ SMTP_PORT = 587
 SENDER = "gmail.bot.by.kisaragi.kiyzen@gmail.com"
 APP_PASSWORD = "ugws kpvi wayd xqxm"
 
-# Target spam disini.
-RECEIVER = "noreply@support.whatsapp.com"
-
-Banner = """   ██████╗  █████╗ ███╗   ██╗    ██╗    ██╗ █████╗
-   ██╔══██╗██╔══██╗████╗  ██║    ██║    ██║██╔══██╗
-   ██████╔╝███████║██╔██╗ ██║    ██║ █╗ ██║███████║
-   ██╔══██╗██╔══██║██║╚██╗██║    ██║███╗██║██╔══██║
-   ██████╔╝██║  ██║██║ ╚████║    ╚███╔███╔╝██║  ██║
-   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚═╝  ╚═╝
-    © 2026 KiyzenBot • Created By 𝙆𝙞𝙨𝙖𝙧𝙖𝙜𝙞 𝙆𝙞𝙮𝙯𝙚𝙣
+Banner = """
+© 2026 KiyzenBot • Created By 𝙆𝙞𝙨𝙖𝙧𝙖𝙜𝙞 𝙆𝙞𝙮𝙯𝙚𝙣
 """
 
 print(Fore.MAGENTA + Banner)
-
-reported_number = input("kiyzen@bot:~$ ").strip()
+RECEIVER = input("[+] Example: example@gmail.com\n[+] Target: ")
 
 # Judul dan Pesan yang dikirim.
-SUBJECT = "Laporan pengguna yang melanggar kebijakan WhatsApp!"
-BODY = """Halo Tim WhatsApp,
-
-Saya ingin melaporkan sebuah akun WhatsApp yang saya duga telah melakukan pelanggaran terhadap Ketentuan Layanan dan Kebijakan WhatsApp.
-
-Nomor yang dilaporkan: """ + reported_number + """\n\nAlasan Pelaporan:
-- Spam tanpa henti
-- Penipuan berulang-kali
-- Phishing dan Malware
-- penyamaran identitas
-- Aktivitas merugikan dan mencurigakan lainnya
-
-Saya memohon agar tim WhatsApp melakukan peninjauan terhadap akun tersebut. Apabila setelah dilakukan pemeriksaan ditemukan adanya pelanggaran terhadap kebijakan yang berlaku, saya berharap tindakan yang sesuai dapat diterapkan.
-
-Terima kasih.
-"""
+SUBJECT = input("[+] Subject: ")
+BODY = input("[+] Body: ")
 
 msg = EmailMessage()
 msg["From"] = SENDER
@@ -69,17 +46,17 @@ try:
         print("[-] System Connected ✓")
 
         smtp.login(SENDER, APP_PASSWORD)
-        print("[-] Login Success ✓")
+        print("[-] Login Success ✓ ")
 
         # Loading...
-        print("[+] Sending E-Mail...")
         os.system("clear")
         print(Fore.MAGENTA + Banner)
+        print("[+] Sending E-Mail...")
         print("[+] Wait...")
 
         while True:
             smtp.send_message(msg)
-            print("[+] Spam Report...")
+            print("[+] Spam Target...")
 
 except Exception as e:
     print("[!] Error:", e)
