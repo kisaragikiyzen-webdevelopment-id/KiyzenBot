@@ -1,3 +1,7 @@
+<p style="align">
+  <img src="https://image2url.com/.../video.jpg">
+</p>
+
 # KiyzenBot
 Saya tak akan bertanggung-jawab atas apa yang kalian alami!
 
