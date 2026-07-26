@@ -21,8 +21,14 @@ SMTP_PORT = 587
 SENDER = "gmail.bot.by.kisaragi.kiyzen@gmail.com"
 APP_PASSWORD = "ugws kpvi wayd xqxm"
 
-Banner = """
-© 2026 KiyzenBot • Created By 𝙆𝙞𝙨𝙖𝙧𝙖𝙜𝙞 𝙆𝙞𝙮𝙯𝙚𝙣
+Banner = """     ______                 _ _    _____
+    |  ____|               (_) |  / ____|
+    | |__   _ __ ___   __ _ _| | | (___  _ __   __ _ _ __ ___
+    |  __| | '_ ` _ \ / _` | | |  \___ \| '_ \ / _` | '_ ` _ \
+    | |____| | | | | | (_| | | |  ____) | |_) | (_| | | | | | |
+    |______|_| |_| |_|\__,_|_|_| |_____/| .__/ \__,_|_| |_| |_|
+    [+] 2026 KiyzenBot                  | |
+    [+] Created By Kisaragi Kiyzen      |_|
 """
 
 print(Fore.MAGENTA + Banner)
