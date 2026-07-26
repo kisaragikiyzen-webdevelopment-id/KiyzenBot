@@ -5,7 +5,7 @@
 # KiyzenBot
 Saya tak akan bertanggung-jawab atas apa yang kalian alami!
 
-### SC Ban WA
+### SC Email Spam
 ```bash
-git clone https://github.com/kisaragikiyzen-webdevelopment-id/KiyzenBot.git && pip install colorama && python KiyzenBot/Ban_WA.py
+git clone https://github.com/kisaragikiyzen-webdevelopment-id/KiyzenBot.git && pip install colorama && python KiyzenBot/EmailSpam.py
 ```
