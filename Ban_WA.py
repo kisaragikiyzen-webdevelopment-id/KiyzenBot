@@ -6,7 +6,7 @@ import os
 import smtplib
 from colorama import Fore, Style, init
 from email.message import EmailMessage
-                                                                                 os.system("clear")
+
 os.system("clear")
 init(autoreset=True)
 
