@@ -1,6 +1,8 @@
 # !!! Tools ini gratis dan tak boleh dijual-belikan !!!
 # !!! Tools ini tak boleh diubah oleh pemula karna bisa saja rusak !!!
-# © 2026 KiyzenBot • Created By 𝙆𝙞𝙨𝙖𝙧𝙖𝙜𝙞 𝙆𝙞𝙮𝙯𝙚𝙣
+# !!! Perhatian, Jika Bot terkena limit, ganti Email dan App Password Bot dengan milik sendiri agar tetap bisa berjalan !!!
+# !!! App Password: https:// !!!
+# !!! © 2026 KiyzenBot • Created By 𝙆𝙞𝙨𝙖𝙧𝙖𝙜𝙞 𝙆𝙞𝙮𝙯𝙚𝙣 !!!
 
 import os
 import smtplib
@@ -24,7 +26,7 @@ Banner = """   ██████╗  █████╗ ███╗   ██�
    ██╔══██╗██╔══██║██║╚██╗██║    ██║███╗██║██╔══██║
    ██████╔╝██║  ██║██║ ╚████║    ╚███╔███╔╝██║  ██║
    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚═╝  ╚═╝                              
-    © 2026 KiyzenBot • Created By 𝙆𝙞𝙨𝙖𝙧𝙖𝙜𝙞 𝙆𝙞𝙮𝙯𝙚𝙣                                """                                                                                                                                                               print(Fore.MAGENTA + Banner)                                                     reported_number = input("kiyzen@bot:~$ ").strip()
+    © 2026 KiyzenBot • Created By 𝙆𝙞𝙨𝙖𝙧𝙖𝙜𝙞 𝙆𝙞𝙮𝙯𝙚𝙣"""                                                                                                                                                               print(Fore.MAGENTA + Banner)                                                     reported_number = input("kiyzen@bot:~$ ").strip()
 
 SUBJECT = "Laporan pengguna yang melanggar kebijakan WhatsApp!"
 
@@ -32,10 +34,10 @@ BODY = """Halo Tim WhatsApp,
 
 Saya ingin melaporkan sebuah akun WhatsApp yang saya duga telah melakukan pelanggaran terhadap Ketentuan Layanan dan Kebijakan WhatsApp.
 
-Nomor yang dilaporkan:\n""" + reported_number + """\n\nAlasan Pelaporan:
-- Spam
-- Penipuan
-- Phishing
+Nomor yang dilaporkan: """ + reported_number + """\n\nAlasan Pelaporan:
+- Spam tanpa henti
+- Penipuan berulang-kali
+- Phishing dan Malware
 - penyamaran identitas
 - Aktivitas merugikan dan mencurigakan lainnya
 
